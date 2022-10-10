@@ -3,9 +3,11 @@ import Row from "react-bootstrap/Row";
 
 function App() {
   return (
-    <Row>
-      <Images />
-    </Row>
+    <div className="img-container">
+      <Row>
+        <Images />
+      </Row>
+    </div>
   );
 }
 
