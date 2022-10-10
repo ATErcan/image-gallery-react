@@ -29,3 +29,5 @@ code {
   max-height: 400px;
   overflow: hidden;
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
