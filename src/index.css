@@ -15,10 +15,17 @@ code {
   padding: 1.5rem;
 }
 .card-div {
-  height: 20vh !important;
+  height: 15vh !important;
 }
 .card-img {
   object-fit: cover;
   object-position: center;
-  max-height: 270px;
+  max-height: 260px;
+  transition-duration: 1.5s;
+}
+.card-img:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(8px 8px 10px #444);
+  max-height: 400px;
+  overflow: hidden;
 }
